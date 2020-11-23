@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.btn.clear {
+  background-color: rgb(121, 182, 242);
+  box-shadow: 0 0 5px rgb(121, 182, 242);
+}
+
+.btn.stop {
+  background-color: rgb(197, 165, 197);
+  box-shadow: 0 0 5px rgb(197, 165, 197);
+}
+
+.btn.start {
+  background-color: rgb(141, 200, 145);
+  box-shadow: 0 0 5px rgb(141, 200, 145);
+
+}
+
+.btn.random {
+  background-color: rgb(250, 200, 99);
+  box-shadow: 0 0 5px rgb(250, 200, 99);
+
+}
+
+
